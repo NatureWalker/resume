@@ -1,5 +1,6 @@
-html, body {
-    overflow-x: hidden;
+html,
+body {
+  overflow-x: hidden;
 }
 
 body {
@@ -29,13 +30,13 @@ li {
 }
 
 .mwbtn {
-    background-color:#862b0d;
-    color: white;
+  background-color: #862b0d;
+  color: white;
 }
 
 .mwbtn:hover {
-    background-color: #c2380a;
-    color: white;
+  background-color: #c2380a;
+  color: white;
 }
 
 .navbar-brand {
@@ -117,15 +118,36 @@ li {
 
 .cloud-image-left {
   height: 65px;
-  top: 75px;
-  left: 27%;
+  animation: leftcloud 20s infinite;
 }
 
 .cloud-image-right {
   height: 50px;
-  top: 200px;
-  right: 27%;
+  animation: rightcloud 16s infinite;
+  animation-delay: 4s;
   z-index: 0;
+}
+
+@keyframes leftcloud {
+  0% {
+    top: 75px;
+    right: -10%;
+  }
+  100% {
+    top: 75px;
+    right: 160%;
+  }
+}
+
+@keyframes rightcloud {
+  0% {
+    top: 200px;
+    right: -60%;
+  }
+  100% {
+    top: 200px;
+    right: 110%;
+  }
 }
 
 .mountain-image {
@@ -149,11 +171,11 @@ li {
 }
 
 #contact {
-    background-image: linear-gradient(white,#FFF9C9);
+  background-image: linear-gradient(white, #fff9c9);
 }
 
 #footer {
-    margin:0;
+  margin: 0;
 }
 
 .footer-links {
@@ -168,14 +190,34 @@ li {
     height: 200px;
   }
   .cloud-image-left {
-    top: 175px;
-    left: 18%;
+    animation: leftcloud 16s infinite;
   }
 
   .cloud-image-right {
-    top: 280px;
-    right: 18%;
-    z-index: 0;
+    animation: rightcloud 12s infinite;
+    animation-delay: 4s;
+  }
+
+  @keyframes leftcloud {
+    0% {
+      top: 175px;
+      right: -60%;
+    }
+    100% {
+      top: 175px;
+      right: 160%;
+    }
+  }
+
+  @keyframes rightcloud {
+    0% {
+      top: 280px;
+      right: -60%;
+    }
+    100% {
+      top: 280px;
+      right: 160%;
+    }
   }
 }
 
