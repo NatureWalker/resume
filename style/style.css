@@ -132,4 +132,26 @@ li {
  .pfp {
     height: 200px;
  }
+ .cloud-image-left {
+    top: 175px;
+    left: 18%;
+}
+
+.cloud-image-right {
+    top: 280px;
+    right: 18%;
+    z-index: 0;    
+}
+}
+
+@media (max-width:800px) {
+    .tree-image-left {
+        left: -100px;
+    }
+    .tree-image-right {
+        right: -80px;
+    }
+    .mountain-image {
+        left: -50px;
+    }
 }
