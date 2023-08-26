@@ -1,0 +1,135 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    background-color: #B5c99a;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+li {
+    position: relative;
+    left: -15px;
+}
+
+.primary-font {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.secondary-font {
+    font-family: 'Nunito', sans-serif;
+}
+
+.deep-red {
+    color:#862B0D;
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+#home,#skills,#contact {
+    height: 700px;
+}
+
+#home {
+    background-color: #FFF9C9;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+#home > div {
+    height: 100%;
+}
+
+#aboutme {
+    height: 500px;
+    width: 100%;
+}
+
+#aboutme > div {
+    height: 100%;
+}
+
+.aboutme-text {
+    width: 60%;
+}
+
+#experience {
+    background-color: #FFC95F;
+}
+
+.work-history {
+    background-color: white;
+}
+
+.worktitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.workdates {
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin: 0 0 5px 0;
+}
+
+.workdetails {
+    font-size: 0.9rem;
+}
+
+.tree-image {
+    position: absolute;
+    z-index: 2;
+}
+
+.cloud-image {
+    position: absolute;
+}
+
+.cloud-image-left {
+    height: 65px;
+    top: 75px;
+    left: 27%;
+}
+
+.cloud-image-right {
+    height: 50px;
+    top: 200px;
+    right: 27%;
+    z-index: 0;    
+}
+
+.mountain-image {
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.tree-image-left {
+    height: 200px;
+    bottom: 0px;
+    left: 15%;
+}
+
+.tree-image-right {
+    height: 150px;
+    bottom: 0px;
+    right: 18%;
+}
+
+@media (max-width:1024px) {
+ .aboutme-text {
+    width: 100%;
+ }
+ .pfp {
+    height: 200px;
+ }
+}
